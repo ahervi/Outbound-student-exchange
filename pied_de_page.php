@@ -1,0 +1,2 @@
+<p class='web'> <a href="ContactWebmaster.php">Contact webmaster</a></p>
+<p class = "merci">Ce site est indépendant de l'Ecole des Mines de Nantes. <br />Il est entièrement réalisé par les étudiants, pour les étudiants. <br/>Les informations présentées ne représentent donc pas ce qu'il est réellement possible de faire mais ce qui s'est déjà fait.</p>

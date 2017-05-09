@@ -1,0 +1,231 @@
+body{
+  font-family: "Georgia";
+  background-color:  #E5E4E2;
+}
+
+.boiteduhaut{
+  display : flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  margin-left: 10.5em;
+}
+
+.wrapperboiteduhaut{
+  display:block;
+  margin:auto;
+}
+
+.wrapperboitedubas{
+ display:block;
+ margin:auto; 
+}
+
+
+.boitedubas{
+  display : flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  margin-left: 10.5em;
+}
+
+strong{
+  font-weight: bold;
+}
+
+em{
+  font-style: italic;
+}
+
+.merci{
+  text-align: center;
+}
+/*Nécéssaire pour souligner le SGS au dessus de Student Graduate School*/
+.sigle{
+  text-decoration: underline;
+}
+
+
+.submitbutton:hover{
+
+  background-color:green;
+  color:white;
+  text-decoration: underline; 
+}
+
+.subnew{ 
+ border: 1px black outset;
+ border-radius: 15px;
+ box-shadow: 2px 2px 4px black;
+ margin-top : 3em;
+}
+
+.subnew:hover{
+  background-color:green;
+  color:white;
+  text-decoration: underline; 
+}
+
+.boite{
+  border: 1px black outset;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  word-wrap: break-word;
+  max-height: 160px;
+  width:auto;
+
+  text-align:left; 
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  padding-left: 2px;
+  margin-bottom:1em;
+  padding-right: 0.2em;
+  padding-left: 0.2em;
+  background-color:  #D1D0CE;
+}
+
+.boites{
+  display :flex;
+  flex-flow:column;
+  margin-right: 12em;
+}
+
+
+.formulaire{
+  display : block;
+  text-align: left;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+  color: black;
+  text-decoration: underline; /* Appliquer une couleur grise */
+}
+
+a:hover
+{
+  color:  #8B0000;
+  font-style:italic;
+}
+
+.aside{
+  display : flex;
+  flex-flow: row;
+}
+
+.hautdepage{
+  display :flex;
+  justify-content: space-between;
+}
+
+.question{
+  
+  background-color:#D1D0CE;
+  display : block;
+  margin-bottom: 1em;
+  width:20em;
+  padding-left:0.5em;
+  border: 1px black outset;
+  border-radius: 15px;
+  box-shadow: 3px 3px 2px black;
+
+}
+
+.questions{
+  display : flex;
+  flex-flow: column;
+  align-items: center;
+  
+}
+
+.sigle{display : block;
+  flex-flow : row;
+  display :inline-block;
+  text-align: center;
+}
+
+.web{
+  background-color: #BCC6CC;
+  display: block;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border: 1px black outset;
+  border-radius: 15px;
+  margin-top:8em;
+}
+.web:hover{
+  background-color:#B0C4DE;
+  
+
+}
+
+table{
+  clear: both;
+  font-family: "Trebuchet";
+  word-wrap: break-word;
+  width:80%;
+  margin:auto;
+  margin-top: 1em;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */
+{
+  border: 1px solid #E5E4E2;
+  height: 30px;
+
+}
+
+th {
+  font-family: "Arial Black";
+  background-color: #5F82B6;
+  color: #E5E4E2;
+  border:1px solid black;
+}
+
+td:nth-child(10), td:nth-child(11), td:nth-child(12){
+
+  max-width:300px;
+  min-width:100px;
+}
+tr{
+  height :30px;
+}
+tr:nth-child(even) {background-color: #B0C4DE}
+tr:nth-child(odd) {background-color: #BBD2E1}
+.rien{
+  text-align : center;
+  font-size:2.0em;
+}
+@media all and (max-width: 1325px) and (min-width: 1122px) 
+{
+.boite:last-child{
+
+margin-left:auto;
+margin-right:auto;
+
+}
+
+}
+@media all and (max-width: 883px)and (min-width: 779px)
+{
+.boite:last-child{
+
+
+margin-left:auto;
+margin-right:auto;
+}
+
+}
+
+@media all and (min-width: 1122px)
+{
+.wrapper{
+  display:flex;
+  flex-flow : column;
+  align-items: center;
+}
+}
